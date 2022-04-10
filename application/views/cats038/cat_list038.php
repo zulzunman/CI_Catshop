@@ -13,8 +13,8 @@
 
 </head>  
 <body class="p-2 mb-1 bg-secondary" class="bg-gradient">
-    <i class="fa fa-cat" style="font-size: 48px;color:red;"> </i><i class="fa fa-cat" style="font-size: 48px;color:red;"> </i>
-    <i class="fa fa-cat" style="font-size: 48px;color:red;float: right;"> </i><i class="fa fa-cat" style="font-size: 48px;color:red;float: right;"> </i>
+    <i class="fa fa-paw" style="font-size: 48px;color:red;"> </i><i class="fa fa-paw" style="font-size: 48px;color:red;"> </i>
+    <i class="fa fa-paw" style="font-size: 48px;color:red;float: right;"> </i><i class="fa fa-paw" style="font-size: 48px;color:red;float: right;"> </i>
     <div class="main main-raised">
         <div class="profile-content">
             <div class="container my-3 bg-light rounded">
