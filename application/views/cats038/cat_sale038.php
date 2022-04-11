@@ -14,10 +14,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </head>
-<body class="p-2 mb-1 bg-secondary" class="bg-gradient">
+<body style="background-image: url(<?php echo base_url("asset/images/bg.jpg");?>);">
     <div class="main main-raised">
         <div class="profile-content">
-            <div class="container my-3 bg-info rounded">
+            <div class="container my-3 bg-warning rounded">
                 <form action="" method="post">
                     <div class="card-header text-center">
                         <h3 class="card-title">SALE FORM</h3>

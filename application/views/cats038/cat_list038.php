@@ -12,17 +12,19 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 
 </head>  
-<body class="p-2 mb-1 bg-secondary" class="bg-gradient">
-    <i class="fa fa-paw" style="font-size: 48px;color:red;"> </i><i class="fa fa-paw" style="font-size: 48px;color:red;"> </i>
-    <i class="fa fa-paw" style="font-size: 48px;color:red;float: right;"> </i><i class="fa fa-paw" style="font-size: 48px;color:red;float: right;"> </i>
+<body class="p-2 mb-1" style="background-image: url(<?php echo base_url("asset/images/bg.jpg");?>);">
     <div class="main main-raised">
         <div class="profile-content">
-            <div class="container my-3 bg-light rounded">
+            <div class="container p-2 my-3 bg-light rounded">
                 <div class="card-header text-center">
-                    <h3 class="card-title">CATS LIST</h3>
+                    <h3 class="card-title">
+                    <i class="fa fa-paw my-1" style="font-size: 48px;color:orange;"> </i><i class="fa fa-paw my-1" style="font-size: 48px;color:orange;"> </i>
+                    CATS LIST
+                    <i class="fa fa-paw my-1" style="font-size: 48px;color:orange;"> </i><i class="fa fa-paw my-1" style="font-size: 48px;color:orange;"> </i>
+                    </h3>
                 </div>
                 <div class="text-center"><?=$this->session->flashdata('msg')?></div>
-                <a href="<?=base_url()?>" class="btn btn-primary">HOME</a>
+                <a href="<?=base_url()?>" class="btn btn-primary my-1">HOME</a>
                 <a href="<?=site_url('cats038/add')?>" class="btn btn-primary">Add new cat</a>
                 <br>
                 <table border="2" align="center" class="table table-info table-striped my-2">

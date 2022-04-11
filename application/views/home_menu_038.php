@@ -12,7 +12,7 @@
   <link href="<?php echo base_url();?>/asset/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   
-<body class="p-3 mb-2 bg-danger" class="bg-gradient">
+<body class="p-3 mb-2" style="background-image: url(<?php echo base_url("asset/images/bg.jpg");?>);">
 <section class="p-1 my-1 bg-dark fixed-top">
 	<div class="p-1 my-1 bg-secondary">
 		<div class="row">
@@ -65,7 +65,7 @@
                 </div>   
             </div>
             <div class="carousel-item">
-                <img src="<?php echo base_url("asset/images/cato.jpg");?>" alt="" width="1100" height="500">
+                <img src="<?php echo base_url("asset/images/catp.jpg");?>" alt="" width="1100" height="500">
                 <div class="carousel-caption text-dark bg-secondary rounded-circle">
                     <h3>CATSHOP038</h3>
                     <p>Welcome to CATSHOP038</p>

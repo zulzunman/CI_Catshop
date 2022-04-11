@@ -10,14 +10,16 @@
     <link href="<?php echo base_url();?>/asset/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
-<body class="p-2 mb-1 bg-secondary" class="bg-gradient">
-    <i class="fa fa-shopping-bag" style="font-size: 48px;color:red;"> </i><i class="fa fa-shopping-bag" style="font-size: 48px;color:red;"> </i>
-    <i class="fa fa-shopping-bag" style="font-size: 48px;color:red;float: right;"> </i><i class="fa fa-shopping-bag" style="font-size: 48px;color:red;float: right;"> </i>
+<body style="background-image: url(<?php echo base_url("asset/images/bg.jpg");?>);">
     <div class="main main-raised">
         <div class="profile-content">
             <div class="container p-2 my-3 bg-light rounded">
                 <div class="card-header text-center">
-                    <h3 class="card-title">SALE LIST</h3>
+                    <h3 class="card-title">
+                        <i class="fa fa-shopping-bag" style="font-size: 48px;color:orange;"> </i><i class="fa fa-shopping-bag" style="font-size: 48px;color:orange;"> </i>
+                        SALE LIST
+                        <i class="fa fa-shopping-bag" style="font-size: 48px;color:orange;"> </i><i class="fa fa-shopping-bag" style="font-size: 48px;color:orange;"> </i>
+                    </h3>
                 </div>
                 <div>
                 <a href="<?=base_url()?>" class="btn btn-primary">HOME</a>
