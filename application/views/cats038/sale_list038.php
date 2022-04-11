@@ -29,7 +29,7 @@
                         <th>No</th>
                         <th>Sale ID</th>
                         <th>Sale Data</th>
-                        <th>Cat ID</th>
+                        <th>Cat Name</th>
                         <th>Customer Name</th>
                         <th>Customer Address</th>
                         <th>Customer Phone</th>
@@ -39,7 +39,7 @@
                         <td><?=$i++?></td>
                         <td><?=$sale->sale_id_038?></td>
                         <td><?=$sale->sale_date_038?></td>
-                        <td><?=$sale->cat_id_038?></td>
+                        <td><?=$sale->name_038?></td>
                         <td><?=$sale->customer_name_038?></td>
                         <td><?=$sale->customer_address_038?></td>
                         <td><?=$sale->customer_phone_038?></td>

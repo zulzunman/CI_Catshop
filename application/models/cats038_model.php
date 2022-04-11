@@ -72,7 +72,11 @@ class Cats038_model extends CI_Model {
     
     public function sales() {
         
-        $query=$this->db->get('catsales038');
+        //$query=$this->db->get('catsales038');
+        $this->db->select('*');
+		$this->db->from('catsales038');
+		$this->db->join('cats038', 'catsales038.cat_id_038 = cats038.id_038');
+		$query = $this->db->get();
         return $query->result();
     }
 }
